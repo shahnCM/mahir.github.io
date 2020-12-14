@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>@yield('title')</title>
+        <title><?php echo $__env->yieldContent('title'); ?></title>
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -46,10 +46,10 @@
 
     </head>
     <body id="page-container">
-        @include('partials.navbar')
+        <?php echo $__env->make('partials.navbar', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 
         <div class="container" id="content-wrap">
-            @yield('content')
+            <?php echo $__env->yieldContent('content'); ?>
         </div>
 
 
@@ -68,4 +68,4 @@
     </body>
 
 
-</html>
+</html><?php /**PATH /opt/lampp/htdocs/dev/php/portfolio/shahncm.github.io/source/resources/views/layouts/master.blade.php ENDPATH**/ ?>

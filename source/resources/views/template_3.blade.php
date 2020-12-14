@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Page Title')
+@section('title', 'Mahir/Projects')
 
 @section('index_link', $pages->index)
 @section('experience_link', $pages->experience)

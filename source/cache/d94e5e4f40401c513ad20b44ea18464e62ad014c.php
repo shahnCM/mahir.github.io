@@ -1,17 +1,17 @@
-@php  
+<?php  
   $public_path = __DIR__ . '/public' ;
-@endphp
+?>
 
-@extends('layouts.master')
 
-@section('title', 'Hello from Mahir')
 
-@section('index_link', $pages->index)
-@section('experience_link', $pages->experience)
-@section('skills_link', $pages->skills)
-@section('projects_link', $pages->projects)
+<?php $__env->startSection('title', 'Hello from Mahir'); ?>
 
-@section('content')
+<?php $__env->startSection('index_link', $pages->index); ?>
+<?php $__env->startSection('experience_link', $pages->experience); ?>
+<?php $__env->startSection('skills_link', $pages->skills); ?>
+<?php $__env->startSection('projects_link', $pages->projects); ?>
+
+<?php $__env->startSection('content'); ?>
     <div class="container">
         
         <div class="row">
@@ -43,4 +43,5 @@
         </div>            
 
     </div>  
-@endsection
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layouts.master', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /opt/lampp/htdocs/dev/php/portfolio/shahncm.github.io/source/resources/views/intro.blade.php ENDPATH**/ ?>
