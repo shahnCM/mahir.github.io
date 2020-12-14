@@ -1,0 +1,27 @@
+{
+  "title": "Landing Page",
+  "slug": "/",
+  "view": "intro",
+  "img": "../public/images/ssg.jpeg",
+  "subtitle" : "This is the front page, nice!",
+  "pages": {
+    "index": "/",
+    "experience": "./experience/index.html",
+    "skills": "./skills/index.html",
+    "projects": "./projects/index.html"
+  },
+  "items": [
+    {
+      "name": "Google",
+      "url": "https://google.com"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://youtube.com"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com"
+    }
+  ]
+}

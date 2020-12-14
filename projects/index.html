@@ -1,147 +1,234 @@
 <html>
     <head>
-        <title>Mahir Shahrier</title>
-
+        <title>App Name - Page Title</title>
         <!-- Required meta tags -->
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">        
-
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">        
-    
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
-        <!-- Styles -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Andika+New+Basic&family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <!-- Custom Css -->
         <style>
-            html, body {
-                background-color: white;
-                /* color: #636b6f; */
-                color: #0f3b52;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 300;
-                height: 100vh;
-                margin: 0;
+            * {
+            font-family: 'PT Sans Narrow', sans-serif;
             }
-            .full-height {
-                height: 100vh;
-            }
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-            .position-ref {
+
+            .army-green, .text-army-green {
+                color: #4b5320 !important;
+            }  
+
+            #page-container {
                 position: relative;
+                min-height: 100vh;
             }
-            .top-right {
+
+            #content-wrap {
+                padding-bottom: 2.5rem;
+            }
+
+            footer {
                 position: absolute;
-                right: 10px;
-                top: 18px;
+                bottom: 0;
+                width: 100%;
+                height: 2.5rem;            /* Footer height */
             }
-            .content {
+
+            .copyright {
+                width: 100%;
+                color: black;
+                line-height: 40px;
+                font-size: 0.7em;
                 text-align: center;
             }
-            .title {
-                font-size: 84px;
-            }
-            li > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 800;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-            .nav-top-border {
-                border-top: 3px solid !important;
-            }        
-        </style>    
-    
-    
+
+        </style>
+
     </head>
-    <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top nav-top-border">
+    <body id="page-container">
+        <nav class="navbar navbar-expand-sm navbar-light bg-white pt-0 pb-0 mb-5">
   <div class="container">
-    <a class="navbar-brand" href="../index.html">MAHIR SHAHRIER</a>
-    <button class="navbar-toggler" style="border: 3px solid #0f3b52" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <a class="navbar-brand text-army-green font-weight-bolder" href="../index.html">Mahir Shahrier</a>
+    <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
-        <li class="nav-item">
+        <li class="nav-item ">
           <a class="nav-link" href="../experience/index.html">Experience</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item ">
           <a class="nav-link" href="../skills/index.html">Skills</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./index.html">Projects</a>
-        </li>      
+        <li class="nav-item ">
+          <a class="nav-link" href="../projects/index.html">Projects</a>
+        </li>
       </ul>
     </div>  
   </div>
 </nav>
-        <div class="container">
-                <div class="p-5">
-      <h2>Projects</h2>
-      <hr>
 
 
-      
-             <div class="p-3">
-              <h4>Cancer Detection Using KNN, SVM & comparing their accuracy</h4>
-              <p>
-                  A Machine Learning project that detects cancer based on malignant cells. I've used KNN & SVM Algorithm. Accuracy of these algorithms are also compared. There is also good data visualization
-              </p>
-              <a class="text-success" style="text-decoration: none;" href="https://github.com/shahnCM/ml_Breast_Cancer_Detection"><small><strong>Github</strong></small></a>
-             </div>
-                    
-                    
-                    <div class="p-3">
-                      <h4>Static Site Generator (Php)</h4>
-                      <p>
-                          A static site generator written on php which uses laravel&#039;s blade template-engine.
-                          A static site generator is essentially a set of tools for building static websites based on a set of input files
-                      </p>
-                      <a class="text-success" style="text-decoration: none;" href="https://github.com/shahnCM/php_static_site_generator"><small><strong>Github</strong></small></a>
-                   </div>
-                    
-                <div class="p-3">
-                  <h4>Identicon</h4>
-                  <p>
-                      This application is written on Elixir, it generates identicon similar to github's default profile picture
-                      An Identicon is a visual representation of a hash value. Today Identicons are used in a broad spectrum of applications such as Github’s default avatars
-                  </p>
-                  <a class="text-success" style="text-decoration: none;" href="https://github.com/shahnCM/identicon"><small><strong>Github</strong></small></a>
+        <div class="container" id="content-wrap">
+                <div class="container">
+
+      <div class="text-right">
+        <h1 class="text-army-green mb-5">Projects</h1>
+      </div>
+
+      <div class="project row">
+                
+          <div class="pjt p-1 col-sm-6">
+            <div class="border rounded" style="border-color: #F8F8F8; min-height:180px;">
+              <div class="p-2">
+                <div class="row">
+                  <h4 class="col-6 text-army-green">Php Static Site Generator</h4>
+                  <h6 class="col-6 text-secondary text-right">[Php, Laravel-Blade]</h6>
                 </div>
-                    
-                    <div class="p-3">
-              <h4>Corona Logger</h4>
-              <p>This application is written on Java Framework I used is spring boot. It shows the number of Corona affected people in different cities, pulls data from open source csv file hosted on github</p>
-                          <a class="text-success" style="text-decoration: none;" href="https://github.com/shahnCM/corona_log_SpringBoot_Java"><small><strong>Github</strong></small></a>
-                           </div>
-                    <div class="p-3">
-              <h4>Cloud Inventory (Php &amp; Laravel)</h4>
-              <p>Multi-store Inventory management system</p>
-                          </div>
-                    <div class="p-3">
-              <h4>Project Catelog (NodeJs &amp; ExpressJs)</h4>
-              <p>Application to store project details</p>
-                          </div>
+                <div class="p-2">
+                  <p class="text-wrap text-justified text-secondary">A static site generator written on php which uses laravel&#039;s blade template-engine. A static site generator is essentially a set of tools for building static websites based on a set of input files</p>
+                </div>
+
+                <div class="position-relative bottom-0">
+                  <div class="row">
+                    <a class="text-decoration-none text-left col-6 text-danger" href="https://shahncm.github.io/index.html"> Live </a>
+                    <a class="text-decoration-none text-right col-6 text-success" href="https://github.com/shahnCM/php_static_site_generator"> Github </a>
+                  </div>
+                </div>            
+              </div>
+            </div>
+          </div>
         
+                
+          <div class="pjt p-1 col-sm-6">
+            <div class="border rounded" style="border-color: #F8F8F8; min-height:180px;">
+              <div class="p-2">
+                <div class="row">
+                  <h4 class="col-6 text-army-green">Team &amp; Task Management</h4>
+                  <h6 class="col-6 text-secondary text-right">[Php, Laravel]</h6>
+                </div>
+                <div class="p-2">
+                  <p class="text-wrap text-justified text-secondary">It is a team and task management SPA. You can manage your tasks just like you can do in Trello but now with Teams</p>
+                </div>
+
+                <div class="position-relative bottom-0">
+                  <div class="row">
+                    <a class="text-decoration-none text-left col-6 text-danger" href=""></a>
+                    <a class="text-decoration-none text-right col-6 text-success" href=""></a>
+                  </div>
+                </div>            
+              </div>
+            </div>
+          </div>
         
+                
+          <div class="pjt p-1 col-sm-6">
+            <div class="border rounded" style="border-color: #F8F8F8; min-height:180px;">
+              <div class="p-2">
+                <div class="row">
+                  <h4 class="col-6 text-army-green">Cancer Detection using ML (KNN &amp; SVM)</h4>
+                  <h6 class="col-6 text-secondary text-right">[Python, Numpy, Pandas, Matplotlib]</h6>
+                </div>
+                <div class="p-2">
+                  <p class="text-wrap text-justified text-secondary">I&#039;ve used KNN &amp; SVM Algorithm. Accuracy of these algorithms are also compared. There is also good data visualization</p>
+                </div>
+
+                <div class="position-relative bottom-0">
+                  <div class="row">
+                    <a class="text-decoration-none text-left col-6 text-danger" href="https://github.com/shahnCM/ml_Breast_Cancer_Detection/blob/main/Breast%20Cancer%20Detection%20using%20SVM%20%26%20KNN.ipynb"> Live </a>
+                    <a class="text-decoration-none text-right col-6 text-success" href="https://github.com/shahnCM/ml_Breast_Cancer_Detection"> Github </a>
+                  </div>
+                </div>            
+              </div>
+            </div>
+          </div>
+        
+                
+          <div class="pjt p-1 col-sm-6">
+            <div class="border rounded" style="border-color: #F8F8F8; min-height:180px;">
+              <div class="p-2">
+                <div class="row">
+                  <h4 class="col-6 text-army-green">Identicon</h4>
+                  <h6 class="col-6 text-secondary text-right">[Elixir]</h6>
+                </div>
+                <div class="p-2">
+                  <p class="text-wrap text-justified text-secondary">This application is written on Elixir, it generates identicon similar to github&#039;s default profile picture An Identicon is a visual representation of a hash value. Today Identicons are used in a broad spectrum of applications such as Github’s default avatars</p>
+                </div>
+
+                <div class="position-relative bottom-0">
+                  <div class="row">
+                    <a class="text-decoration-none text-left col-6 text-danger" href=""></a>
+                    <a class="text-decoration-none text-right col-6 text-success" href="https://github.com/shahnCM/identicon"> Github </a>
+                  </div>
+                </div>            
+              </div>
+            </div>
+          </div>
+        
+                
+          <div class="pjt p-1 col-sm-6">
+            <div class="border rounded" style="border-color: #F8F8F8; min-height:180px;">
+              <div class="p-2">
+                <div class="row">
+                  <h4 class="col-6 text-army-green">Corona Logger</h4>
+                  <h6 class="col-6 text-secondary text-right">[Java, SpringBoot]</h6>
+                </div>
+                <div class="p-2">
+                  <p class="text-wrap text-justified text-secondary">This application is written on Java Framework I used is spring boot. It shows the number of Corona affected people in different cities, pulls data from open source csv file hosted on github</p>
+                </div>
+
+                <div class="position-relative bottom-0">
+                  <div class="row">
+                    <a class="text-decoration-none text-left col-6 text-danger" href=""></a>
+                    <a class="text-decoration-none text-right col-6 text-success" href="https://github.com/shahnCM/corona_log_SpringBoot_Java"> Github </a>
+                  </div>
+                </div>            
+              </div>
+            </div>
+          </div>
+        
+                
+          <div class="pjt p-1 col-sm-6">
+            <div class="border rounded" style="border-color: #F8F8F8; min-height:180px;">
+              <div class="p-2">
+                <div class="row">
+                  <h4 class="col-6 text-army-green">Recursive Web Crawler</h4>
+                  <h6 class="col-6 text-secondary text-right">[Php]</h6>
+                </div>
+                <div class="p-2">
+                  <p class="text-wrap text-justified text-secondary">Recursive Web Crawler written on Php</p>
+                </div>
+
+                <div class="position-relative bottom-0">
+                  <div class="row">
+                    <a class="text-decoration-none text-left col-6 text-danger" href=""></a>
+                    <a class="text-decoration-none text-right col-6 text-success" href=""></a>
+                  </div>
+                </div>            
+              </div>
+            </div>
+          </div>
+        
+              
+      </div>
 
     </div>
         </div>
 
+
+
+        <footer>
+            <p class="copyright">&copy; Mahir Shahrier 2020-2025</p>
+        </footer>
+
+
+        <!-- Script -->    
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-          
+
+
     </body>
+
+
 </html>

@@ -1,0 +1,63 @@
+{
+  "title": "Experience",
+  "slug": "/experience",
+  "view": "template_1",
+  "img": "../public/images/ssg.jpeg",
+  "subtitle" : "This is the Experience page!",
+  "pages": {
+    "index": "../index.html",
+    "experience": "../experience/index.html",
+    "skills": "../skills/index.html",
+    "projects": "../projects/index.html"
+  },
+  "items": [
+    {
+      "office_name": "XIT Bangladesh",
+      "office_website": "https://www.xitbangladesh.com",
+      "job_type": "Contractual",
+      "duration": "January 2020 - Present",
+      "tasks":[
+        {
+          "name": "Developed a prototype of a web-panel for an android app named Fantasy Cricket (Laravel)"
+        },
+        {
+          "name": "Developed a cloud based multi store inventory management application (Laravel)"
+        },
+        {
+          "name": "Designed a system for logistics management application"
+        }
+      ]
+    },
+    {
+      "office_name": "Cursor BD",
+      "office_website": "https://www.cursorbd.com",
+      "job_type": "Part-time",
+      "duration": "October 2019 - December 2019",
+      "tasks":[
+        {
+          "name": "Developed a ticketing system for developers and clients (CodeIgniter)"
+        },
+        {
+          "name": "Developed admin panel for an E-commerce (CodeIgniter)"
+        },
+        {
+          "name": "Worked on Cursor's 'Pure Vat' project (CodeIgniter)"
+        }
+      ]
+    },
+    {
+      "office_name": "Changetech BD",
+      "office_website": "https://www.changetechbd.com",
+      "job_type": "Full-time",
+      "duration": "February 2019 - September 2019",
+      "tasks":[
+        {
+          "name": "Learned Laravel Worked on Laravel based projects"
+        },
+        {
+          "name": "Worked on ElectronJs and NodeJs based projects"
+        }
+      ]
+    }
+  ]
+}

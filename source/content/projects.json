@@ -1,0 +1,99 @@
+{
+  "title": "Projects",
+  "slug": "/projects",
+  "view": "template_3",
+  "img": "../public/images/ssg.jpeg",
+  "subtitle" : "This is the Project page, nice!",
+  "pages": {
+    "index": "../index.html",
+    "experience": "../experience/index.html",
+    "skills": "../skills/index.html",
+    "projects": "../projects/index.html"
+  },
+  "projects": [
+    {
+      "name": "Php Static Site Generator",
+      "description": "A static site generator written on php which uses laravel's blade template-engine. A static site generator is essentially a set of tools for building static websites based on a set of input files",
+      "github": {
+        "available": true,
+        "link": "https://github.com/shahnCM/php_static_site_generator"
+      },
+      "languages": "Php, Laravel-Blade",
+      "live": {
+        "available": true,
+        "link": "https://shahncm.github.io/index.html"
+      }
+    },
+
+    {
+      "name": "Team & Task Management",
+      "description": "It is a team and task management SPA. You can manage your tasks just like you can do in Trello but now with Teams",
+      "github": {
+        "available": false,
+        "link": null
+      },
+      "languages": "Php, Laravel",
+      "live": {
+        "available": false,
+        "link": false
+      }
+    },
+
+    {
+      "name": "Cancer Detection using ML (KNN & SVM)",
+      "description": "I've used KNN & SVM Algorithm. Accuracy of these algorithms are also compared. There is also good data visualization",
+      "github": {
+        "available": true,
+        "link": "https://github.com/shahnCM/ml_Breast_Cancer_Detection"
+      },
+      "languages": "Python, Numpy, Pandas, Matplotlib",
+      "live": {
+        "available": true,
+        "link": "https://github.com/shahnCM/ml_Breast_Cancer_Detection/blob/main/Breast%20Cancer%20Detection%20using%20SVM%20%26%20KNN.ipynb"
+      }
+    },
+    
+    {
+      "name": "Identicon",
+      "description": "This application is written on Elixir, it generates identicon similar to github's default profile picture An Identicon is a visual representation of a hash value. Today Identicons are used in a broad spectrum of applications such as Github’s default avatars",
+      "github": {
+        "available": true,
+        "link": "https://github.com/shahnCM/identicon"
+      },
+      "languages": "Elixir",
+      "live": {
+        "available": false,
+        "link": null
+      }
+    },
+
+    {
+      "name": "Corona Logger",
+      "description": "This application is written on Java Framework I used is spring boot. It shows the number of Corona affected people in different cities, pulls data from open source csv file hosted on github",
+      "github": {
+        "available": true,
+        "link": "https://github.com/shahnCM/corona_log_SpringBoot_Java"
+      },
+      "languages": "Java, SpringBoot",
+      "live": {
+        "available": false,
+        "link": null
+      }
+    },
+
+    {
+      "name": "Recursive Web Crawler",
+      "description": "Recursive Web Crawler written on Php",
+      "github": {
+        "available": false,
+        "link": null
+      },
+      "languages": "Php",
+      "live": {
+        "available": false,
+        "link": null
+      }
+    }
+    
+  ]
+}

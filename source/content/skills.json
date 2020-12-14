@@ -1,0 +1,35 @@
+{
+  "title": "Skills",
+  "slug": "/skills",
+  "view": "template_2",
+  "img": "../public/images/ssg.jpeg",
+  "subtitle" : "This is the Skill page, nice!",
+  "pages": {
+    "index": "../index.html",
+    "experience": "../experience/index.html",
+    "skills": "../skills/index.html",
+    "projects": "../projects/index.html"
+  },
+  "skills": [
+    {
+      "name": "Methodology",
+      "skill": "Object Oriented, Procedural & Functional Programming"
+    },
+    {
+      "name": "P/L",
+      "skill": "C/C++, Java, Python, JavaScript/NodeJs, Php, Elixir"
+    },
+    {
+      "name": "Framework",
+      "skill": "Laravel, CodeIgniter, ExpressJs, ElectronJs, SpringBoot"
+    },
+    {
+      "name": "Database",
+      "skill": "MySql, MongoDb, Redis"
+    },
+    {
+      "name": "Other",
+      "skill": "Machine-Learning, Image-Processing, Data-Visualization"
+    }
+  ]
+}
